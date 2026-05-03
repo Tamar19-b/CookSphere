@@ -1,0 +1,8 @@
+server/__pycache__/
+server/models/__pycache__/
+server/routes/__pycache__/
+server/services/__pycache__/
+server/cooksphere.db
+server/venv/
+client/node_modules/
+client/build/
