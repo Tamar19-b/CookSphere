@@ -8,7 +8,8 @@ import PublicFeed from "./pages/PublicFeed";
 import RecipePage from "./pages/RecipePage";
 import Register from "./pages/Register";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL =
+  process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
 
 function App() {
   const [user, setUser] = useState(null);

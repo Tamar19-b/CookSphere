@@ -18,4 +18,4 @@ services:
     staticPublishPath: build
     envVars:
       - key: REACT_APP_API_BASE_URL
-        value: https://cooksphere-api.onrender.com
+        value: https://cooksphere-api-08uv.onrender.com
